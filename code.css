@@ -1,0 +1,91 @@
+body{
+
+    background-color: white;
+
+}
+
+.mad3 {
+    width: 100%;
+    display: block;
+    overflow: auto;
+    
+    
+}
+
+.mad {
+
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15%;
+    margin: 3%;
+    margin-left: 4%;
+    margin-bottom: 2%;
+    box-shadow: 15px -15px 20px 10px rgb(100, 100, 100);
+    float: left;    
+    
+
+}
+
+.mad2 {
+
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 15%;
+    margin: 2%;
+    margin-left: 5%;
+    box-shadow: 15px -15px 20px 10px rgb(100, 100, 100);
+    display: inline-block;
+
+
+}
+
+.mad4 {
+
+    margin-top: 0%;
+    padding: 0%;
+    
+
+}
+
+#mad5 {
+
+    position: relative;
+    padding: 1%;
+    
+    
+    text-align: center;
+    
+
+}
+
+#mad5 h1{
+
+    position: absolute;
+    bottom: 0;
+    
+}
+
+
+.mad6 {
+
+    width: 90%;    
+    height: 75%;
+    margin: auto;
+
+
+}
+
+#mad5:hover{
+
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+
+}
+
+.checked{
+
+    color: orange;
+}

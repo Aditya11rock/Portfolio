@@ -1,0 +1,63 @@
+.maint{
+
+    width: 90%;
+    display: block;
+    overflow: auto;
+    padding: 20px;
+    box-shadow: 20px 10px yellow;
+    border-radius: 20px;
+    margin: auto;
+    background-color: black;
+
+}
+
+.mad{
+
+    width: fit-content;
+    display: block;
+    overflow:auto;
+    padding: 20px;
+    
+    border-radius: 20px;
+
+}
+
+video{
+    float: left;
+    border-radius: 10px;
+}
+
+.mad2{
+    width: fit-content;
+    height:450px;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    color: white;
+}
+
+ul li{
+
+    text-align: left;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+
+}
+p {
+
+    font-size: 18px;
+
+}
+
+a{
+    color: blue;
+}
+
+h1{
+    color: red;
+    font-size: 40px;
+    text-shadow: 2px 2px white;
+    font-style: italic;
+}

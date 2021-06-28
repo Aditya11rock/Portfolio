@@ -1,0 +1,36 @@
+
+
+.mad{
+
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+    background-color: rgb(83, 3, 83);
+    border-radius: 20px;
+    float: left;
+    color: white;
+    box-shadow: 10px 10px black;
+    
+    
+    
+
+}
+
+.checked{
+    color: yellow;
+}
+
+.mad :hover{
+
+    color:rgb(17, 252, 17);
+    transform: translateY(5px);
+    
+
+}
+
+h1{
+
+    text-shadow: 2px 2px red;
+
+}

@@ -1,0 +1,242 @@
+body{
+
+    background-color: black;
+    
+
+}
+
+#mainbox{
+
+
+    width: 80%;
+    height: 100%;
+    border-radius: 20px;
+    display: block;
+    overflow: auto;
+    margin: auto;
+    margin-top: 4%;
+    background-color: rgb(7, 250, 177);
+    box-shadow: 15px 15px cornsilk;
+    padding: 10px;
+
+}
+
+#photo{
+
+    width: fit-content;
+    display: block;
+    overflow:auto;
+    float: left;
+    margin-left: 6%;
+    margin-top: 2%;
+    border-radius: 10%;
+    box-shadow: 10px 10px rgb(242, 214, 255);
+    background-color: rgb(10, 10, 7);
+    text-align: center;
+    color: rgb(248, 248, 248);
+    padding: 20px;
+
+}
+#adi{
+
+    width: 250;
+    height: 250px;
+    box-shadow: 5px 5px rgb(168, 165, 165);
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 8%;
+
+}
+
+#det{
+
+    width: 340px;
+    height: 100%;
+    float:left;
+    
+    display: block;
+    overflow: auto;
+    padding: 10px;
+    
+    
+    margin-top: 4%;
+    border-radius: 10%;
+    margin-left: 20px;
+    
+
+}
+
+#det button {
+
+
+padding: 10px;
+font-size: 30px;
+margin: 8px;
+border-radius: 10px;
+font-weight: bold;
+float: left;
+color: white;
+text-shadow: 4px 3px gray;
+border: 3px solid rgb(222, 252, 57);
+
+
+font-family: Georgia, 'Times New Roman', Times, serif;
+background-color:rgb(39, 15, 253);
+
+
+}
+#pit1 {
+    cursor: pointer;
+}
+#det button:hover{
+
+    background-color: coral;
+
+}
+#det button:active{
+    transform: translateY(4px);
+}
+
+#bat {
+
+    color: rgb(11, 14, 13);
+    font-size: 35px;
+    text-shadow: 2px 2px red;
+
+}
+
+#bat2 {
+
+width: 50%;
+height: fit-content;
+    float: left;
+    font-size: 18px;
+    
+    margin: 10px;
+    border-radius: 20px;
+    color: orange;
+    border: 5px solid yellow;
+    background-color: black;
+    padding: 1%;
+    float: right;
+
+}
+
+#bat3 {
+
+    margin-top: 6%;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-shadow: 3px 3px 2px red;
+
+}
+
+.toggle{
+
+    position: relative;
+    display: inline-block;
+    width : 80px;
+    height : 25px;
+    background-color: red;
+    border-radius: 30px;
+    border: 2px solid gray;
+
+
+}
+
+.toggle::after{
+
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 23px;
+        border-radius: 50%;
+        background-color: gray;
+        top: 1px; 
+        left: 1px;
+        transition:  all 0.5s;
+
+}
+
+.tggle:checked+.toggle::after{
+    left:52px;
+}
+
+.tggle:checked+.toggle{
+
+    background-color: green;
+
+}
+
+.tggle{
+    display: none;
+    float: right;
+    margin-bottom: 20px;
+}
+
+#bat5 {
+
+    float: right;
+    
+
+}
+
+.contact{
+
+    width: 80%;
+    display: block;
+    overflow: auto;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 5px;
+
+
+    background-color: rgb(7, 250, 177);
+    box-shadow: 10px 10px cornsilk;
+    visibility: hidden;
+    
+
+}
+
+
+
+
+.contact ul{
+    margin: 0%;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.contact ul li{
+    float: left;
+    margin-right: 10px;
+    
+    
+}
+
+.contact ul li img{
+
+    float: left;
+    margin: 2px;
+    margin-right: 4px;
+
+}
+
+.contact ul li h3{
+
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 0%;
+
+}
+
+a{
+    color: rgb(131, 4, 250);
+}
+
+a:hover{
+
+    color: red;
+}
